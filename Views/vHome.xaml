@@ -35,7 +35,8 @@
                     Text="Insertar Dato"
                     Clicked="btnInsertar_Clicked"
                     Grid.Row="0"
-                    Grid.Column="0"/>
+                    Grid.Column="0"
+                    BackgroundColor="#4CAF50"/>
 
             <Label x:Name="statusMessage"
                    FontSize="18"
@@ -47,7 +48,8 @@
                     Text="Listar Personas"
                     Clicked="btnListar_Clicked"
                     Grid.Row="2"
-                    Grid.Column="0"/>
+                    Grid.Column="0"
+                    BackgroundColor="#2196F3"/>
             <CollectionView x:Name="listPersonas"
                             Grid.Row="3">
                 <CollectionView.ItemTemplate>
@@ -82,13 +84,16 @@
                     Clicked="btnActualizar_Clicked"
                     Margin="0,0,0,20"
                     Grid.Row="6" 
-                    Grid.Column="0"/>
+                    Grid.Column="0"
+                    BackgroundColor="#FF9800"/>
 
             <Button x:Name="btnEliminar"
                     Text="Eliminar Persona"
                     Clicked="btnEliminar_Clicked"
                     Grid.Row="7" 
-                    Grid.Column="0"/>
+                    Grid.Column="0"
+                    Margin="0,0,0,20"
+                    BackgroundColor="RED"/>
         </Grid>
         
     </VerticalStackLayout>
